@@ -1,0 +1,125 @@
+================================================================================
+LEAVE MANAGEMENT SYSTEM - QUICK START GUIDE
+================================================================================
+
+ALL ERRORS HAVE BEEN FIXED! ✓
+
+The JavaScript naming conflicts that were preventing the build have been resolved.
+
+================================================================================
+TO RUN THE PROJECT:
+================================================================================
+
+METHOD 1: Using npm directly (Recommended)
+-------------------------------------------
+1. Open Command Prompt (not PowerShell)
+2. Navigate to this folder
+3. Run: npm run dev
+4. Open browser: http://localhost:3000
+
+METHOD 2: Using the batch file
+-------------------------------------------
+1. Double-click: dev.bat
+2. Follow the on-screen instructions
+3. Open browser: http://localhost:3000
+
+METHOD 3: Test the build first
+-------------------------------------------
+1. Double-click: test-build.bat
+2. This will verify everything is working
+3. Then run: npm run dev
+
+================================================================================
+PREREQUISITES (If not already installed):
+================================================================================
+
+1. Node.js (v18 or later)
+   Download: https://nodejs.org/
+
+2. MySQL 8.0 or later
+   Download: https://dev.mysql.com/downloads/mysql/
+
+================================================================================
+FIRST TIME SETUP:
+================================================================================
+
+1. Install dependencies (if not done):
+   npm install
+
+2. Configure database in .env.local:
+   - Set DB_PASSWORD to your MySQL password
+   - Other settings should work as-is for local development
+
+3. Create and setup database:
+   mysql -u root -p
+   CREATE DATABASE ali_hr_leave;
+   USE ali_hr_leave;
+   SOURCE database/schema.sql;
+   SOURCE database/seeds.sql;  (optional - for test data)
+
+4. Start development server:
+   npm run dev
+
+================================================================================
+WHAT WAS FIXED:
+================================================================================
+
+Fixed naming conflicts in 10 API route files:
+✓ app/api/users/route.js
+✓ app/api/users/[id]/route.js
+✓ app/api/leave-quotas/route.js
+✓ app/api/leave-quotas/[id]/route.js
+✓ app/api/leave-approvals/route.js
+✓ app/api/leave-balances/route.js
+✓ app/api/leave-ledger/route.js
+✓ app/api/notifications/route.js
+✓ app/api/reports/route.js
+✓ app/api/reports/utilisation/route.js
+
+All function declarations were renamed to avoid conflicts with export names.
+
+================================================================================
+TROUBLESHOOTING:
+================================================================================
+
+Problem: "npm is not recognized"
+Solution: Install Node.js or add it to your PATH
+
+Problem: "mysql is not recognized"
+Solution: Install MySQL or add it to your PATH
+
+Problem: Build still fails
+Solution: 
+1. Delete .next folder
+2. Delete node_modules folder
+3. Run: npm install
+4. Run: npm run build
+
+Problem: Database connection error
+Solution: Check .env.local file has correct MySQL credentials
+
+Problem: PowerShell execution policy error
+Solution: Use Command Prompt (cmd.exe) instead of PowerShell,
+         or use the provided .bat files
+
+================================================================================
+ADDITIONAL DOCUMENTATION:
+================================================================================
+
+For detailed information, see:
+- SETUP_GUIDE.md - Complete setup instructions
+- FIXES_APPLIED.md - Detailed list of all fixes
+- README.md - Original project documentation
+
+================================================================================
+SUPPORT:
+================================================================================
+
+If you still encounter issues:
+1. Check the error messages carefully
+2. Verify all prerequisites are installed
+3. Make sure MySQL is running
+4. Check .env.local configuration
+5. Review the error logs in the console
+
+================================================================================

@@ -1,0 +1,144 @@
+================================================================================
+HOW TO FIX "localhost refused to connect"
+================================================================================
+
+The error means the development server isn't running.
+Most likely cause: DATABASE CONNECTION ISSUE
+
+================================================================================
+SOLUTION - Follow These Steps:
+================================================================================
+
+STEP 1: Run Diagnostics
+------------------------
+Double-click: diagnose.bat
+
+This will tell you what's missing.
+
+STEP 2: Start MySQL Service
+----------------------------
+Option A - Using Services:
+  1. Press Win + R
+  2. Type: services.msc
+  3. Find "MySQL" or "MySQL80"
+  4. Right-click → Start
+
+Option B - Command Prompt:
+  net start MySQL80
+
+STEP 3: Create Database
+------------------------
+Option A - MySQL Workbench (Easy):
+  1. Open MySQL Workbench
+  2. Connect to Local instance
+  3. Click "Create new schema" button
+  4. Name it: ali_hr_leave
+  5. Click Apply
+
+Option B - Command Line:
+  mysql -u root -p
+  (enter your password)
+  
+  Then type:
+  CREATE DATABASE ali_hr_leave;
+  EXIT;
+
+STEP 4: Import Database Schema
+-------------------------------
+Option A - MySQL Workbench (Easy):
+  1. In MySQL Workbench, select ali_hr_leave database
+  2. Menu: File → Run SQL Script
+  3. Browse to: database\schema.sql
+  4. Click "Run"
+
+Option B - Command Line:
+  cd /d "c:\Users\Team Lead Hopper\Downloads\leave-management-system"
+  mysql -u root -p ali_hr_leave < database\schema.sql
+
+STEP 5: Set Database Password
+------------------------------
+Edit .env.local file:
+
+If your MySQL has a password:
+  DB_PASSWORD=your_password_here
+
+If MySQL has NO password (common for local dev):
+  DB_PASSWORD=
+  (leave it empty - this is fine!)
+
+STEP 6: Start Development Server
+---------------------------------
+Double-click: start-dev.bat
+
+Or in Command Prompt:
+  npm run dev
+
+Wait for:
+  "Ready! Started server on 0.0.0.0:3000"
+
+Then open: http://localhost:3000
+
+================================================================================
+QUICK CHECKLIST
+================================================================================
+
+□ MySQL service is running
+□ Database "ali_hr_leave" exists
+□ Schema imported (tables created)
+□ .env.local has correct DB_PASSWORD
+□ npm install completed (node_modules exists)
+□ No other errors in console
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+Problem: "Access denied for user 'root'"
+→ Wrong password in .env.local
+→ Fix: Update DB_PASSWORD with correct password
+
+Problem: "Unknown database 'ali_hr_leave'"
+→ Database not created
+→ Fix: CREATE DATABASE ali_hr_leave;
+
+Problem: "Can't connect to MySQL server"
+→ MySQL not running
+→ Fix: Start MySQL service (see Step 2)
+
+Problem: "Table doesn't exist"
+→ Schema not imported
+→ Fix: Import database\schema.sql (see Step 4)
+
+Problem: ESLint errors
+→ Already fixed! The dashboard apostrophe issue is resolved.
+
+Problem: Port 3000 already in use
+→ Another app using port 3000
+→ Fix: Kill that app, or use: npm run dev -- -p 3001
+
+================================================================================
+VERIFICATION
+================================================================================
+
+To check if database is set up correctly:
+
+1. Open MySQL Workbench or MySQL command line
+2. Connect to localhost
+3. Run: USE ali_hr_leave;
+4. Run: SHOW TABLES;
+5. Should see 17 tables including: users, roles, employees, leave_requests, etc.
+
+================================================================================
+NEED MORE HELP?
+================================================================================
+
+See these files for detailed instructions:
+- DATABASE_SETUP.md - Complete database setup guide
+- STATUS.md - Project status and overview
+- SETUP_GUIDE.md - Full setup instructions
+
+Run these scripts for diagnosis:
+- diagnose.bat - Check system requirements
+- start-dev.bat - Start server with checks
+
+================================================================================

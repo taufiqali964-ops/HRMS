@@ -1,0 +1,30 @@
+
+> leave-management-system@0.1.0 build
+> next build
+
+   ▲ Next.js 15.1.6
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+
+Failed to compile.
+
+./app/dashboard/page.js
+75:48  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+75:55  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+
+./app/employees/page.js
+32:6  Warning: React Hook useEffect has a missing dependency: 'fetchEmployees'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+
+./app/holidays/page.js
+32:6  Warning: React Hook useEffect has a missing dependency: 'fetchHolidays'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+
+./app/settings/audit-logs/page.js
+37:6  Warning: React Hook useEffect has a missing dependency: 'fetchLogs'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+
+./app/users/page.js
+32:6  Warning: React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules
