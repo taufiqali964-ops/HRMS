@@ -1,0 +1,693 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Initialise Next.js 15 project with Bootstrap 5 and base folder structure": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615918195
+      },
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615941839
+      },
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784617450417
+      }
+    ],
+    "1.2 Create database schema and seed file": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615918481
+      },
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615942540
+      },
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784617449110
+      }
+    ],
+    "1.3 Implement `lib/db.js` MySQL connection pool": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615918626
+      },
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784617454902
+      },
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784617511415
+      },
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784617518826
+      },
+      {
+        "executionId": "26b9be53-931e-4465-883f-c3fdae17e7dc",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784618691925
+      },
+      {
+        "executionId": "26b9be53-931e-4465-883f-c3fdae17e7dc",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784618698666
+      },
+      {
+        "executionId": "26b9be53-931e-4465-883f-c3fdae17e7dc",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784618831431
+      }
+    ],
+    "2.1 Implement `lib/jwt.js` sign/verify helpers": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615918694
+      },
+      {
+        "executionId": "26b9be53-931e-4465-883f-c3fdae17e7dc",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784618699183
+      },
+      {
+        "executionId": "26b9be53-931e-4465-883f-c3fdae17e7dc",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784618830701
+      }
+    ],
+    "2.2 Implement `middleware/auth.js` and `middleware/rbac.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615918746
+      },
+      {
+        "executionId": "26b9be53-931e-4465-883f-c3fdae17e7dc",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784618849942
+      },
+      {
+        "executionId": "b5f1da88-6ab4-4643-9961-46eccb8e7ffb",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784622930363
+      }
+    ],
+    "2.3 Build `api/auth/route.js` login endpoint": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615918808
+      },
+      {
+        "executionId": "26b9be53-931e-4465-883f-c3fdae17e7dc",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784618850878
+      },
+      {
+        "executionId": "b5f1da88-6ab4-4643-9961-46eccb8e7ffb",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784622931552
+      }
+    ],
+    "2.4 Create `context/AuthContext.js` and `hooks/useAuth.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615918869
+      },
+      {
+        "executionId": "26b9be53-931e-4465-883f-c3fdae17e7dc",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784618851764
+      },
+      {
+        "executionId": "b5f1da88-6ab4-4643-9961-46eccb8e7ffb",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784622932345
+      }
+    ],
+    "3. Checkpoint — Auth and RBAC": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615918922
+      }
+    ],
+    "4.1 Implement `utils/workingDays.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615918976
+      },
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784617455617
+      },
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784617513164
+      },
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784617519429
+      },
+      {
+        "executionId": "26b9be53-931e-4465-883f-c3fdae17e7dc",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784618692852
+      },
+      {
+        "executionId": "26b9be53-931e-4465-883f-c3fdae17e7dc",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784618699904
+      },
+      {
+        "executionId": "26b9be53-931e-4465-883f-c3fdae17e7dc",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784618828645
+      }
+    ],
+    "4.3 Implement `utils/fileValidator.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615919066
+      },
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784617456370
+      },
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784617513376
+      },
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784617520474
+      },
+      {
+        "executionId": "26b9be53-931e-4465-883f-c3fdae17e7dc",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784618693615
+      },
+      {
+        "executionId": "26b9be53-931e-4465-883f-c3fdae17e7dc",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784618700690
+      },
+      {
+        "executionId": "26b9be53-931e-4465-883f-c3fdae17e7dc",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784618829255
+      }
+    ],
+    "4.5 Implement `utils/auditLogger.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615919120
+      },
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784617457337
+      },
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784617513759
+      },
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784617521146
+      },
+      {
+        "executionId": "26b9be53-931e-4465-883f-c3fdae17e7dc",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784618701637
+      },
+      {
+        "executionId": "26b9be53-931e-4465-883f-c3fdae17e7dc",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784618828141
+      }
+    ],
+    "5.1 Implement `services/leaveTypeService.js` and `api/leave-types/route.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615919171
+      },
+      {
+        "executionId": "26b9be53-931e-4465-883f-c3fdae17e7dc",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784618852698
+      },
+      {
+        "executionId": "b5f1da88-6ab4-4643-9961-46eccb8e7ffb",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784622933402
+      }
+    ],
+    "5.3 Build `app/settings/leave-types/page.js` UI": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615919226
+      },
+      {
+        "executionId": "b5f1da88-6ab4-4643-9961-46eccb8e7ffb",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784622934381
+      }
+    ],
+    "6.1 Implement `services/leaveRequestService.js` — create request": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615919276
+      },
+      {
+        "executionId": "b5f1da88-6ab4-4643-9961-46eccb8e7ffb",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784622935792
+      }
+    ],
+    "6.3 Implement file attachment upload in `api/attachments/route.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615919327
+      },
+      {
+        "executionId": "b5f1da88-6ab4-4643-9961-46eccb8e7ffb",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784622936595
+      }
+    ],
+    "6.4 Build `components/leave/LeaveRequestForm.js` and `app/leave/request/page.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615919386
+      },
+      {
+        "executionId": "b5f1da88-6ab4-4643-9961-46eccb8e7ffb",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784622937897
+      }
+    ],
+    "6.5 Implement `hooks/useLeaveBalance.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615919445
+      },
+      {
+        "executionId": "b5f1da88-6ab4-4643-9961-46eccb8e7ffb",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784622938896
+      }
+    ],
+    "7.1 Implement `services/approvalService.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615919526
+      },
+      {
+        "executionId": "b5f1da88-6ab4-4643-9961-46eccb8e7ffb",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784622939615
+      }
+    ],
+    "7.5 Build `api/leave-approvals/route.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615919578
+      },
+      {
+        "executionId": "b5f1da88-6ab4-4643-9961-46eccb8e7ffb",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784622940278
+      }
+    ],
+    "7.6 Build `components/leave/ApprovalCard.js` and `app/leave/approvals/page.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615919643
+      },
+      {
+        "executionId": "b5f1da88-6ab4-4643-9961-46eccb8e7ffb",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784622941914
+      }
+    ],
+    "8. Checkpoint — Leave Submission and Approvals": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615919728
+      }
+    ],
+    "9.1 Implement `services/balanceService.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615919791
+      },
+      {
+        "executionId": "26b9be53-931e-4465-883f-c3fdae17e7dc",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784618853571
+      }
+    ],
+    "9.4 Build `api/leave-balances/route.js` and `api/leave-ledger/route.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615919844
+      },
+      {
+        "executionId": "b5f1da88-6ab4-4643-9961-46eccb8e7ffb",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784622942991
+      }
+    ],
+    "9.5 Build `components/leave/BalanceCard.js`, `components/leave/LedgerTable.js`, `app/leave/balances/page.js`, and `app/leave/ledger/page.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615919893
+      },
+      {
+        "executionId": "b5f1da88-6ab4-4643-9961-46eccb8e7ffb",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784622946372
+      }
+    ],
+    "10.1 Implement quota service and `api/leave-quotas/route.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615919957
+      }
+    ],
+    "10.4 Build `app/leave/balances/page.js` quota section and quota management UI for HR": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615920010
+      }
+    ],
+    "11.1 Implement `api/holidays/route.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615920071
+      }
+    ],
+    "11.2 Build `components/calendar/HolidayCalendar.js` and `app/holidays/page.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615920122
+      }
+    ],
+    "12.1 Implement compensation leave service and `api/compensation-leaves/route.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615920173
+      }
+    ],
+    "13.1 Implement `services/notificationService.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615920235
+      }
+    ],
+    "13.2 Implement `lib/pushNotify.js` Web Push wrapper": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615920286
+      }
+    ],
+    "13.3 Build `api/notifications/route.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615920336
+      }
+    ],
+    "13.4 Build `components/layout/NotificationBell.js` and notification panel": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615920390
+      }
+    ],
+    "14. Checkpoint — Balance, Quotas, Notifications": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615920444
+      }
+    ],
+    "15.1 Build Employee Dashboard page (`app/dashboard/page.js` — employee view)": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615920502
+      }
+    ],
+    "15.2 Build Manager/HR Dashboard view": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615920552
+      }
+    ],
+    "15.3 Build Super Admin Dashboard view": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615920608
+      }
+    ],
+    "15.4 Integrate Chart.js utilisation chart (`components/charts/UtilisationChart.js`)": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615920673
+      }
+    ],
+    "15.5 Build `api/reports/utilisation` route": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615920742
+      }
+    ],
+    "16.1 Build `components/common/FilterBar.js`, `DataTable.js`, and `Pagination.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615920792
+      }
+    ],
+    "16.2 Implement `hooks/usePagination.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615920843
+      }
+    ],
+    "16.5 Wire FilterBar and Pagination into approvals, balances, ledger, and quota list pages": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615920894
+      }
+    ],
+    "17.1 Implement `services/reportService.js` — Excel export": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615920954
+      }
+    ],
+    "17.2 Implement PDF export in `services/reportService.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615921010
+      }
+    ],
+    "17.3 Build `api/reports/route.js` report endpoints": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615921059
+      }
+    ],
+    "17.5 Build `components/common/ExportButtons.js` and `app/reports/page.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615921109
+      }
+    ],
+    "18.1 Build `api/audit-logs/route.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615921163
+      }
+    ],
+    "18.2 Build `app/settings/roles/page.js` and Audit Logs screen": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615921309
+      }
+    ],
+    "19.1 Build `api/employees`, `api/users`, department, branch, designation routes": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615921369
+      }
+    ],
+    "19.2 Build `app/employees/page.js` and `app/users/page.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615921429
+      }
+    ],
+    "19.3 Build `app/settings/approval-chains/page.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615921486
+      }
+    ],
+    "20.1 Implement `context/ThemeContext.js` and `components/layout/ThemeToggle.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615921541
+      }
+    ],
+    "20.3 Build `components/layout/Sidebar.js` and `components/layout/Navbar.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615921593
+      }
+    ],
+    "21.1 Implement cascade delete for attachments in the leave request delete handler": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615921643
+      }
+    ],
+    "22.1 Build `app/(auth)/login/page.js`": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615921702
+      }
+    ],
+    "22.2 Wire App Router root layout with AuthContext, ThemeContext, and Sidebar/Navbar": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615921758
+      }
+    ],
+    "23. Final Checkpoint — Full Integration": [
+      {
+        "executionId": "9eec20a3-4f64-4649-a154-ceaf051c824b",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784615921809
+      }
+    ],
+    "4. Core Utilities": [
+      {
+        "executionId": "26b9be53-931e-4465-883f-c3fdae17e7dc",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784618829358
+      }
+    ],
+    "1. Project Scaffolding and Database Foundation": [
+      {
+        "executionId": "26b9be53-931e-4465-883f-c3fdae17e7dc",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784618831533
+      }
+    ],
+    "2. Authentication and RBAC Middleware": [
+      {
+        "executionId": "b5f1da88-6ab4-4643-9961-46eccb8e7ffb",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784622932410
+      }
+    ],
+    "5. Leave Type Management": [
+      {
+        "executionId": "b5f1da88-6ab4-4643-9961-46eccb8e7ffb",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784622934465
+      }
+    ],
+    "6. Leave Request Submission (Employee)": [
+      {
+        "executionId": "b5f1da88-6ab4-4643-9961-46eccb8e7ffb",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784622938952
+      }
+    ],
+    "7. Approval Workflow Service": [
+      {
+        "executionId": "b5f1da88-6ab4-4643-9961-46eccb8e7ffb",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784622941978
+      }
+    ],
+    "9. Leave Balance and Ledger": [
+      {
+        "executionId": "b5f1da88-6ab4-4643-9961-46eccb8e7ffb",
+        "chatSessionId": "sess_a604972e-71d4-4d20-90ed-30b7d1226c70",
+        "timestamp": 1784622946443
+      }
+    ]
+  }
+}
